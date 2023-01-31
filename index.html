@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link Css Bootstrap -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- Link Style Css -->
+
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Link Font Awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    
+    <!-- Start Header -->
+
+    <header id="acceuil">
+      
+      <!-- Start NavBar -->
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand mx-4 logo" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span><br />
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link mx-2 text-uppercase"
+                  aria-current="page"
+                  href="#acceuil"
+                  ><b>acceuil</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-uppercase" href="#propos"
+                  ><b>a propos de moi</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-uppercase" href="#experience"
+                  ><b>experience</b></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-uppercase" href="#competences"
+                  ><b>competences</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-uppercase" href="#education"
+                  ><b>education</b></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2 text-uppercase" href="#contact"
+                  ><b>contact</b></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- End NavBar -->
+
+      <h1 class="text-light text-right">
+        Bonjour, Je m'appelle
+        <span>Mehdi Waddad</span><br />
+      </h1>
+      <p class="text-light text-right">Je Suis Développeur Web</p>
+      <button type="button" class="btn btn-outline-light mx-3">
+        Telecharger Mon CV
+      </button>
+      <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+    </header>
+    
+
+    <!-- End Header -->
+
+    <!-- Start Section Apropos -->
+
+    <section id="propos" class="mt-5 apropos_css">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-8 col-xd-6">
+            <img src="./img/img2.png" alt="img2" class="img-fluid mt-2" />
+          </div>
+          <div class="col-lg-8 col-md-8 col-xd-6">
+            <h2>A propos de Moi</h2>
+            <hr />
+            <p class="text-justify text-muted mt-3">Je Suis Dévelopeur Web,</p>
+            <h2>Information Personal</h2>
+            <hr />
+            <ul class="text-muted info_list">
+              <li>Nom et Prenom : Mehdi Waddad</li>
+              <li>Age : 28 ans</li>
+              <li>Tél : 0640618211</li>
+              <li>Email : wadadmehdi@gmail.com</li>
+              <li>Address : Wifak 3 Rue 95 N 16 Oulfa Casablanca</li>
+            </ul>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn_git" type="button">Git hub</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Apropos -->
+
+    <!-- Start Section Skill -->
+
+    <section id="skill" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-xd-6">
+            <h1 class="text-uppercase">skill</h1>
+          </div>
+
+          <div class="col-lg-8 col-md-8 col-xd-6">
+            <p class="my-2 text-uppercase">html</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped prog1"
+                role="progressbar"
+                aria-label="Default striped example"
+                style="width: 80%"
+                aria-valuenow="10"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="my-3 text-uppercase">css</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped prog1"
+                role="progressbar"
+                aria-label="Success striped example"
+                style="width: 75%"
+                aria-valuenow="25"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="my-3 text-uppercase">javascript</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped prog1"
+                role="progressbar"
+                aria-label="Info striped example"
+                style="width: 60%"
+                aria-valuenow="50"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="my-3 text-uppercase">bootstrap</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped prog1"
+                role="progressbar"
+                aria-label="Warning striped example"
+                style="width: 65%"
+                aria-valuenow="75"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+            <p class="my-3 text-uppercase">mysql</p>
+            <div class="progress">
+              <div
+                class="progress-bar progress-bar-striped prog1"
+                role="progressbar"
+                aria-label="Danger striped example"
+                style="width: 65%"
+                aria-valuenow="100"
+                aria-valuemin="0"
+                aria-valuemax="100"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Skill -->
+
+    <!-- Start Section Experience -->
+
+    <section id="experience" class="my-5 py-5">
+      <h1 class="text-center pb-5 text-uppercase">Experience Profetionnelle</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-justify text-muted bg-light p-4 text-capitalize">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quae architecto voluptates ipsum odio facilis mollitia doloribus
+              nisi debitis cumque repudiandae nesciunt inventore, tenetur nam
+              consectetur saepe blanditiis repellat expedita!
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-justify text-muted bg-light p-4 text-capitalize">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quae architecto voluptates ipsum odio facilis mollitia doloribus
+              nisi debitis cumque repudiandae nesciunt inventore, tenetur nam
+              consectetur saepe blanditiis repellat expedita!
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-justify text-muted bg-light p-4 text-capitalize">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quae architecto voluptates ipsum odio facilis mollitia doloribus
+              nisi debitis cumque repudiandae nesciunt inventore, tenetur nam
+              consectetur saepe blanditiis repellat expedita!
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-justify text-muted bg-light p-4 text-capitalize">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quae architecto voluptates ipsum odio facilis mollitia doloribus
+              nisi debitis cumque repudiandae nesciunt inventore, tenetur nam
+              consectetur saepe blanditiis repellat expedita!
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-justify text-muted bg-light p-4 text-capitalize">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quae architecto voluptates ipsum odio facilis mollitia doloribus
+              nisi debitis cumque repudiandae nesciunt inventore, tenetur nam
+              consectetur saepe blanditiis repellat expedita!
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-justify text-muted bg-light p-4 text-capitalize">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum
+              quae architecto voluptates ipsum odio facilis mollitia doloribus
+              nisi debitis cumque repudiandae nesciunt inventore, tenetur nam
+              consectetur saepe blanditiis repellat expedita!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Experience -->
+
+          <!-- Start Section Competences -->
+
+          <section id="competences">
+            <h1 class="text-center pb-5 text-uppercase my-3">competences</h1>
+
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/html5.png"  class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">html5</h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/css3.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">css3</h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/javascript.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">javascript</h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/mysql.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">mysql</h3>
+                </div>  <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/bootstrap.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">bootstrap</h3>
+                  
+                  
+                </div>
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/php.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">php</h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/C.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">c</h3>
+                </div>  <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/python.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">python</h3>
+                </div>
+                <div class="col-lg-4 col-md-4 col-xd-12">
+                  <img src="./img/java.png" class="img-fluid mt-2" alt="img3" />
+                  <h3 class="text-center text-uppercase">java</h3>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </section>
+
+          <!-- End Section Competences -->
+
+    <!-- Start Section Education -->
+
+    <section id="education" class="my-5 py-5">
+      <h1 class="text-center text-uppercase p-4">education</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xd-6">
+            <p class="text-muted bg-light p-4">
+              <span class="four">Avril 2020</span><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              voluptatum vitae iste officiis cupiditate aspernatur quia, veniam
+              beatae quos, ipsam tenetur aliquid nemo quaerat ducimus doloribus
+              accusantium labore, molestias eos!
+              <br /><small>Faculte Seance H2</small>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 12">
+            <p class="text-muted bg-light p-4">
+              <span class="four">Avril 2020</span><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              voluptatum vitae iste officiis cupiditate aspernatur quia, veniam
+              beatae quos, ipsam tenetur aliquid nemo quaerat ducimus doloribus
+              accusantium labore, molestias eos!
+              <br /><small>Faculte Seance H2</small>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 12">
+            <p class="text-muted bg-light p-4">
+              <span class="four">Avril 2020</span><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              voluptatum vitae iste officiis cupiditate aspernatur quia, veniam
+              beatae quos, ipsam tenetur aliquid nemo quaerat ducimus doloribus
+              accusantium labore, molestias eos!
+              <br /><small>Faculte Seance H2</small>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 12">
+            <p class="text-muted bg-light p-4">
+              <span class="four">Avril 2020</span><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              voluptatum vitae iste officiis cupiditate aspernatur quia, veniam
+              beatae quos, ipsam tenetur aliquid nemo quaerat ducimus doloribus
+              accusantium labore, molestias eos!
+              <br /><small>Faculte Seance H2</small>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 12">
+            <p class="text-muted bg-light p-4">
+              <span class="four">Avril 2020</span><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              voluptatum vitae iste officiis cupiditate aspernatur quia, veniam
+              beatae quos, ipsam tenetur aliquid nemo quaerat ducimus doloribus
+              accusantium labore, molestias eos!
+              <br /><small>Faculte Seance H2</small>
+            </p>
+          </div>
+          <div class="col-lg-6 col-md-6 12">
+            <p class="text-muted bg-light p-4">
+              <span class="four">Avril 2020</span><br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
+              voluptatum vitae iste officiis cupiditate aspernatur quia, veniam
+              beatae quos, ipsam tenetur aliquid nemo quaerat ducimus doloribus
+              accusantium labore, molestias eos!
+              <br /><small>Faculte Seance H2</small>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Section Education -->
+
+    <!-- Start Footer -->
+
+    <footer id="contact" class="my-5 text-center">
+      <h1 class="py-3 text-uppercase">contact</h1>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-xd-12">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                ><i class="fa-regular fa-user"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Nom et Prenom"
+                aria-label="Nom et Prenom"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <br />
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                ><i class="fa-solid fa-mobile-screen-button"></i>
+              </span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Telephone"
+                aria-label="Telephone"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <br />
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="basic-addon1"
+                ><i class="fa-regular fa-envelope"></i
+              ></span>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Email"
+                aria-label="Email"
+                aria-describedby="basic-addon1"
+              />
+            </div>
+            <br />
+            <div class="input-group">
+              <textarea
+                rows="13"
+                placeholder="message"
+                class="form-control"
+                aria-label="With textarea"
+              ></textarea>
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button class="btn btn_git my-3" type="button">
+                Envoyes Message
+              </button>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex align-items-stretch">
+            <div class="info-wrap w-100 p-lg-5 p-4 img">
+              <h3 class="text-start">Contactez nous</h3>
+              
+              <div class="dbox w-100 d-flex align-items-start mt-5">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-map-marker "></span>
+                </div>
+                <div class="text-uppercase pl-3 my-3">
+                  <p><span>Address: </span>Wifak 3 Rue 95 N 16 Oulfa Casablanca </p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex align-items-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-phone"></span>
+                </div>
+                <div class="text-uppercase">
+                  <p><span>Phone:</span>0640618211</p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex align-items-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-paper-plane"></span>
+                </div>
+                <div class="text-uppercase pl-3">
+                  <p><span>Email:</span> wadadmehdi@gmail.com</p>
+                </div>
+              </div>
+              <div class="dbox w-100 d-flex align-items-center">
+                <div class="icon d-flex align-items-center justify-content-center">
+                  <span class="fa fa-globe"></span>
+                </div>
+                <div class="text-uppercase pl-3">
+                  <p><span>Website</span> <a href="#">www.wadadmehdi.com</a></p>
+                </div>
+              </div>
+        </div>
+      </div>
+      
+    </footer>
+    <footer class="p-4 text-center"><h6>&copy;<b>Wadad Mehdi2023</b></h6></footer>
+
+    <!-- End Footer -->
+
+    <!-- Link Javascript Bootstrap -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
